@@ -1,7 +1,7 @@
 <?php
 header("Content-Type: application/json");
 
-$SERVER_SECRET = getenv("SERVER_SECRET");
+$SERVER_SECRET = getenv("OYB_ESP_ANTIBYPASS_7F9A2C1E4D6B8G3H");
 
 $input = json_decode(file_get_contents("php://input"), true);
 
