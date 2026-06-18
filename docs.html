@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Docs — MyWeb</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: "Inter", sans-serif;
+        background: #ffffff;
+        color: #333;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 40px;
+        background: #4f46e5;
+        color: white;
+        font-weight: 600;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin-left: 20px;
+        opacity: 0.9;
+    }
+    nav a:hover { opacity: 1; }
+
+    .content {
+        max-width: 900px;
+        margin: 60px auto;
+        padding: 20px;
+    }
+    h1 {
+        font-size: 2.6rem;
+        margin-bottom: 20px;
+    }
+    code {
+        background: #f0f0f0;
+        padding: 4px 8px;
+        border-radius: 6px;
+    }
+    pre {
+        background: #f0f0f0;
+        padding: 16px;
+        border-radius: 8px;
+        overflow-x: auto;
+    }
+</style>
+</head>
+
+<body>
+
+<nav>
+    <div>MyWeb</div>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="docs.html">Docs</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+
+<div class="content">
+    <h1>API Documentation</h1>
+
+    <h2>GET Script</h2>
+    <p>Endpoint:</p>
+    <code>/get_script.php</code>
+
+    <h2>Validate Key</h2>
+    <p>Endpoint:</p>
+    <code>/validate_key.php</code>
+
+    <h2>HWID Check</h2>
+    <p>Endpoint:</p>
+    <code>/hwid_check.php</code>
+
+    <h2>Example Request</h2>
+    <pre>{
+  "secret": "YOUR_SECRET"
+}</pre>
+</div>
+
+</body>
+</html>
